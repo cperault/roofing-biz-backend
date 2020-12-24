@@ -3,7 +3,7 @@
 /******************************************************************************************************************\
  *File:    ContactMessage.php                                                                                      *
  *Author:  Christopher Perault                                                                                     *
- *Project: Roofmasters CMS (Customer Management System)                                                            *
+ *Project: Roofing Biz Backend                                                            *
  *Date:    April 10th, 2020                                                                                        *
  *Purpose: This class will handle contact messages                                                                 *
 \******************************************************************************************************************/
@@ -24,7 +24,7 @@ class ContactMessage
         $contact_message_fields = array('First Name' => $first_name, 'Last Name' => $last_name, 'Contact Email' => $email, 'Message Body' => $message);
 
         $validation_result = Validation::is_valid($contact_message_fields);
-        
+
         if ($validation_result) {
             $message = json_encode(array('validation_response' => 'Rejected', 'rejection_reason' => $validation_result), JSON_PRETTY_PRINT);
             exit($message);

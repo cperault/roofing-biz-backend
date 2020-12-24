@@ -3,7 +3,7 @@
 /******************************************************************************************************************\
  *File:    PHPMailerInit.php                                                                                       *
  *Author:  Christopher Perault                                                                                     *
- *Project: Roofmasters CMS (Customer Management System)                                                            *
+ *Project: Roofing Biz Backend                                                            *
  *Date:    April 10th, 2020                                                                                        *
  *Purpose: This class will emailing                                                                                *
 \******************************************************************************************************************/
@@ -39,11 +39,11 @@ class PHPMailerInit
         //resend confirmation code to user in session
         try {
             //lets the user know we are the ones emailing
-            $mail->setFrom('roofmastersdevteam@gmail.com', 'Roof Masters Nebraska Developer');
+            $mail->setFrom('roofmastersdevteam@gmail.com', 'Cody Morris Exteriors Developer');
             //who will receiving the email
             $mail->addAddress($email);
             //create reply-to email addresss
-            $mail->addReplyTo('roofmastersdevteam@gmail.com', 'Roof Masters Nebraska Developer');
+            $mail->addReplyTo('roofmastersdevteam@gmail.com', 'Cody Morris Exteriors Developer');
             //set up email content
             $mail->isHTML(true);
             $mail->Subject = "Please confirm your registration.";

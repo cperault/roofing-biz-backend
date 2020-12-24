@@ -3,7 +3,7 @@
 /******************************************************************************************************************\
  *File:    Validation.php                                                                                          *
  *Author:  Christopher Perault                                                                                     *
- *Project: Roofmasters CMS (Customer Management System)                                                            *
+ *Project: Roofing Biz Backend                                                            *
  *Date:    November 10th, 2019                                                                                     *
  *Purpose: This class will handle validation of forms throughout the site                                          *
 \******************************************************************************************************************/

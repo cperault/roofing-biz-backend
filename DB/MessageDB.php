@@ -3,7 +3,7 @@
 /******************************************************************************************************************\
  *File:    MessageDB.php                                                                                           *
  *Author:  Christopher Perault                                                                                     *
- *Project: Roofmasters CMS (Customer Management System)                                                            *
+ *Project: Roofing Biz Backend                                                            *
  *Date:    October 7th, 2019                                                                                       *
  *Purpose: This class will store all queries relating to messages                                                  *
 \******************************************************************************************************************/

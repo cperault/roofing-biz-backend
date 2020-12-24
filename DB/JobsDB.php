@@ -3,7 +3,7 @@
 /******************************************************************************************************************\
  *File:    JobsDB.php                                                                                             *
  *Author:  Christopher Perault                                                                                    *
- *Project: Roofmasters CMS (Customer Management System)                                                           *
+ *Project: Roofing Biz Backend                                                           *
  *Date:    November 25th, 2019                                                                                    *
  *Purpose: This class will handle all queries relating to jobs                                                    *
 \******************************************************************************************************************/

@@ -3,7 +3,7 @@
 /******************************************************************************************************************\
  *File:    User.php                                                                                                *
  *Author:  Christopher Perault                                                                                     *
- *Project: Roofmasters CMS (Customer Management System)                                                            *
+ *Project: Roofing Biz Backend                                                            *
  *Date:    August 8th, 2019                                                                                        *
  *Purpose: This class will define User objects                                                                     *
 \******************************************************************************************************************/
